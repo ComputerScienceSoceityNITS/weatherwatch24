@@ -20,15 +20,17 @@ h1{color: white; font-size: 4rem; font-family:  'Montserrat', sans-serif;}
     height: 4rem;
     width: 4rem;
     position: relative;
-    top:0.5rem;
-    right: 4.5rem;
+    top:0.65rem;
+    right: 4.25rem;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
     border: none;
-    background: transparent;
+    background: #585965a0;
 }
 
 #searchbtn img{
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
 }   
 
 #inputbox
