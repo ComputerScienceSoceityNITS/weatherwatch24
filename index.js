@@ -1,5 +1,5 @@
 
-const API_KEY = `3265874a2c77ae4a04bb96236a642d2f`
+const API_KEY = `1855b8035c1679a630ed90645fd85c21`
 const form = document.querySelector("form")
 const inputbox = document.querySelector("#inputbox")
 const weather = document.querySelector(".weather-ui")
