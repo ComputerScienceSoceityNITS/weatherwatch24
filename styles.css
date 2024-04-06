@@ -53,3 +53,7 @@ p,h2{
 p,h2{font-size: 1.5rem; word-spacing: 0.5rem;}
 
 }
+
+.error{
+    color: red;
+}
