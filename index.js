@@ -1,5 +1,5 @@
 
-const API_KEY = `3265874a2c77ae4a04bb96236a642d2f`
+const API_KEY = `1855b8035c1679a630ed90645fd85c21`
 const form = document.querySelector("form")
 const inputbox = document.querySelector("#inputbox")
 const weather = document.querySelector(".weather-ui")
@@ -46,6 +46,9 @@ const showWeather = (data) => {
     
     weather.innerHTML = `
     <p>${data.main.temp}℃<br>${data.weather[0].main}<br>${data.main.temp_min}℃(min)  ${data.main.temp_max}℃(max)</p>
+    <br><p>Humidity:${data.main.humidity}%    Pressure:${data.main.pressure}hPa</p>
+    <br><p>Wind Speed: ${data.wind.speed}m/s    Wind Direction: ${data.wind.deg}°</p>
+    <br><p>Visibility: ${data.visibility}m</p><br><h2>Feels Like: ${data.main.feels_like}℃</h2>
     `
 }
 
