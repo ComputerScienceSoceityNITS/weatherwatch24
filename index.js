@@ -43,7 +43,7 @@ const showWeather = (data) => {
     if(data.weather[0].main == "Snow")
     document.body.style.background = " url('snowy.jpg')";
 
-    
+    inputbox.style.background = document.body.style.background;
     weather.innerHTML = `
     <p>${data.main.temp}℃<br>${data.weather[0].main}<br>${data.main.temp_min}℃(min)  ${data.main.temp_max}℃(max)</p>
     `
