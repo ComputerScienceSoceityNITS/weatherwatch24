@@ -15,6 +15,24 @@ h1{color: white; font-size: 4rem; font-family:  'Montserrat', sans-serif;}
     justify-content: center;
     align-items: center;
 }
+
+#searchbtn{
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    top:0.65rem;
+    right: 4.25rem;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: none;
+    background: #585965a0;
+}
+
+#searchbtn img{
+    height: 2.5rem;
+    width: 2.5rem;
+}   
+
 #inputbox
 {
     height: 4rem;
